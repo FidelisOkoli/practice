@@ -1,0 +1,45 @@
+To Commit in git
+
+Step 1:
+Add it to git
+`git add filename` to add a single file
+`git add .` to add all untracked file to git
+U - untracked
+A - Added
+M - has been added but it has been MODIFIED
+No-symbol - Your file(s) has been sucessfully committed.
+
+
+Step 2:
+Add a commit message
+`git commit -m "write a short commit description"`
+*Commit messages must be in present tense*
+*commit messages must start with small letter or lowercase*
+
+step 3: COnfirmation(optional)
+`git status`
+
+step 4: Push command
+- To push to a repository on github
+`git push origin branchname`
+
+
+PROCESS 2: BRANCHING
+- how to create a branch
+`git branch branchname`
+*branch names can be written as branch-name or branchname*
+*Never write like this: branch_name branch name*
+
+- how to switch from one branch to another
+1. git switch
+`git switch branchname`
+2. git checkout
+`git checkout branchname`
+
+RECOMMENDED****
+TO DO STEP 1 AND 2
+- git checkout
+`git checkout -b branchname`
+
+- How to delete a branch
+run `git checkout -D branchname` then run `git checkout formerbranch`
