@@ -18,3 +18,28 @@ Add a commit message
 
 step 3: COnfirmation(optional)
 `git status`
+
+step 4: Push command
+- To push to a repository on github
+`git push origin branchname`
+
+
+PROCESS 2: BRANCHING
+- how to create a branch
+`git branch branchname`
+*branch names can be written as branch-name or branchname*
+*Never write like this: branch_name branch name*
+
+- how to switch from one branch to another
+1. git switch
+`git switch branchname`
+2. git checkout
+`git checkout branchname`
+
+RECOMMENDED****
+TO DO STEP 1 AND 2
+- git checkout
+`git checkout -b branchname`
+
+- How to delete a branch
+run `git checkout -D branchname` then run `git checkout formerbranch`
